@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height:100%;
+}
+body{
+    font-family: 'Overpass', sans-serif;
+    background-color:hsl(216, 12%, 8%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    max-width: 300px;
+    background-color:hsl(213, 19%, 18%) ;
+    padding: 30px;
+    border-radius: 25px;
+}
+.section-one{
+   display: flex;
+   flex-direction: column;
+   gap:20px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.number{
+    padding:5px;
+    height: 34px;
+    width:34px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color:rgba(124, 135, 152,0.3) ;
+    color:hsl(217, 12%, 63%);
+    
+}
+.btn{
+    padding: 12px;
+    background-color:  hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 30px;
+}
+.btn:hover{
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(25, 97%, 53%) ;
+    cursor: pointer;
+}
+.number:hover{
+    background-color:hsl(25, 97%, 53%) ;
+    color:hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.image1{
+    background-color:rgba(124, 135, 152,0.3) ;
+    height: 28px;
+    width: 28px;
+    padding: 5px;
+    border-radius: 50%;
+}
+p{
+    font-size: 12px;
+    color:hsl(217, 12%, 63%);
+}
+h1{
+    font-size: 20px;
+    color:hsl(0, 0%, 100%);
+
+}
+.sec-container{
+    max-width: 300px;
+    background-color: hsl(213, 19%, 18%) ;
+    border-radius: 25px;
+    padding: 30px;
+    border-radius: 25px;
+    text-align: center;
+}
+.section-two{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    
+}
+h2{
+    color:hsl(0, 0%, 100%);
+}
+.discription{
+    background-color: rgba(124, 135, 152,0.3) ;
+    padding:4px;
+    color:hsl(25, 97%, 53%);
+    border-radius: 10px;
+    width: 60%;
+    margin-inline: auto;
+}
